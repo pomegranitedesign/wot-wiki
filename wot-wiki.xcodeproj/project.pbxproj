@@ -58,16 +58,48 @@
 		9DBC008724CF8D23000A16B8 /* wot-wiki */ = {
 			isa = PBXGroup;
 			children = (
+				9DBC00A224CF9495000A16B8 /* Storyboard */,
+				9DBC00A124CF948E000A16B8 /* Model */,
+				9DBC00A024CF9486000A16B8 /* Controller */,
+				9DBC009F24CF947C000A16B8 /* View */,
 				9DBC008824CF8D23000A16B8 /* AppDelegate.swift */,
 				9DBC008A24CF8D23000A16B8 /* SceneDelegate.swift */,
-				9DBC008C24CF8D23000A16B8 /* ViewController.swift */,
-				9DBC008E24CF8D23000A16B8 /* Main.storyboard */,
 				9DBC009424CF8D24000A16B8 /* Assets.xcassets */,
-				9DBC009624CF8D24000A16B8 /* LaunchScreen.storyboard */,
 				9DBC009924CF8D24000A16B8 /* Info.plist */,
 				9DBC009124CF8D23000A16B8 /* wot_wiki.xcdatamodeld */,
 			);
 			path = "wot-wiki";
+			sourceTree = "<group>";
+		};
+		9DBC009F24CF947C000A16B8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9DBC00A024CF9486000A16B8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9DBC008C24CF8D23000A16B8 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9DBC00A124CF948E000A16B8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9DBC00A224CF9495000A16B8 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				9DBC008E24CF8D23000A16B8 /* Main.storyboard */,
+				9DBC009624CF8D24000A16B8 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
